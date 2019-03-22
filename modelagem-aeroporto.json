@@ -1,0 +1,10 @@
+[
+    {
+        "aeroPartida":"SDU",
+        "aeroChegada":"YYZ",
+        "aviao":"Airbus A380",
+        "distancia":30000,
+        "interContinental":true
+
+    }
+]
