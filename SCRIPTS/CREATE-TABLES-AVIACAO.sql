@@ -1,0 +1,30 @@
+CREATE TABLE Aviao (
+	ID_Aviao INT PRIMARY KEY AUTO_INCREMENT,
+	NM_Modelo VARCHAR(100)
+);
+
+CREATE TABLE Aeroporto (
+	ID_Aeroporto INT PRIMARY KEY AUTO_INCREMENT,
+	NM_Nome VARCHAR(30),
+	SG_Sigla CHAR(2)
+);
+
+CREATE TABLE Voo(
+	ID_Voo INT PRIMARY KEY AUTO_INCREMENT,
+	ID_Aviao INT,
+	ID_Partida INT,
+	ID_Chegada INT,
+	NR_Distancia INT,
+	IN_Intercontinentanal BINARY
+	
+);
+
+ALTER TABLE Voo ADD CONSTRAINT FK_Aviao
+FOREIGN KEY (ID_Aviao) REFERENCES Aviao(ID_Aviao);
+
+
+ALTER TABLE Voo ADD CONSTRAINT FK_Aeroporto_Partida
+FOREIGN KEY(ID_Partida) REFERENCES Aeroporto(ID_Aeroporto);
+
+ALTER TABLE Voo ADD CONSTRAINT FK_Aeroporto_Chegada
+FOREIGN KEY(ID_Chegada) REFERENCES Aeroporto(ID_Aeroporto);
