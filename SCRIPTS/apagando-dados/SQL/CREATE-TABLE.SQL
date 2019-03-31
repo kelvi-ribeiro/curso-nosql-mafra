@@ -1,0 +1,10 @@
+CREATE TABLE Cliente(
+    ID_Cliente INT PRIMARY KEY AUTO_INCREMENT,
+    NM_Nome VARCHAR(30),
+    Sexo CHAR(1)
+);
+
+INSERT INTO Cliente VALUES(NULL,'João','M');
+INSERT INTO Cliente VALUES(NULL,'Jorge','M')
+INSERT INTO Cliente VALUES(NULL,'Clara','F');
+INSERT INTO Cliente VALUES(NULL,'Lilian','F');

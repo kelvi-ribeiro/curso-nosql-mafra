@@ -1,0 +1,24 @@
+[
+    {	
+	"aeroPartida" : "SDU",
+	"aeroChegada" : "YYZ",
+	"aviao" : "AirBus A380",
+	"distancia" : 30000,
+	"intercontinental" : true
+    },
+    {
+	"aeroPartida" : "GRU",
+	"aeroChegada" : "GIG",
+	"aviao" : "AirBus A320",
+	"distancia" : 550,
+	"intercontinental" : false
+    },
+    {
+        "aeroPartida" : "GRU",
+        "aeroChegada" : "GIG",
+        "aviao" : "AirBus Fortnite F380",
+        "distancia" : 1000,
+        "intercontinental" : false
+    }
+    
+]
