@@ -6,7 +6,7 @@ CREATE TABLE Aviao (
 CREATE TABLE Aeroporto (
 	ID_Aeroporto INT PRIMARY KEY AUTO_INCREMENT,
 	NM_Nome VARCHAR(30),
-	SG_Sigla CHAR(2)
+	SG_Sigla CHAR(3)
 );
 
 CREATE TABLE Voo(
