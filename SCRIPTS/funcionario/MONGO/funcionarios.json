@@ -1,0 +1,22 @@
+[
+    {
+    "nome":"Michel",
+    "idade":29,
+    "filhos":["Isabela","Natan"]
+    },
+    {
+    "nome":"Lilian",
+    "idade":35,
+    "filhos":["Letícia","Clara"]
+    },
+    {
+        "nome":"Bianca",
+        "idade":31,
+        "filhos":["Olívia","Eva"]
+    },
+    {
+        "nome":"André",
+        "idade":50,
+        "filhos":["José","Cláudio","Oswaldo"]
+    }
+]
