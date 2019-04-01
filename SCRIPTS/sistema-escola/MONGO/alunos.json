@@ -1,0 +1,108 @@
+[
+    {
+    "matricula":1,
+    "nome":"João Nunes",
+    "sexo":"M",    
+    "serie":8,
+    "materiasRegulares":[
+        {"nome":"Matemática","notas":[7.8,8.9,9.3]},
+        {"nome":"Português","notas":[5.9,7.3,5.9]},
+        {"nome":"Geografia","notas":[8.0,5.7,6.7]}
+    ],
+    "materiasEletivas":[
+        "Desenho",
+        "Música"
+        
+    ],
+    "telefones":[
+        "37715309",
+        "2578-2448"
+    ],
+    "voluntario":true
+    },
+    {
+        "matricula":2,
+        "nome":"Clara Mafra",
+        "sexo":"F",    
+        "email":"clara@teste.com",    
+        "serie":7,
+        "materiasRegulares":[
+            {"nome":"Matemática","notas":[5.9,2.0,9.8]},
+            {"nome":"Português","notas":[6.9,8.8,9.7]},
+            {"nome":"Geografia","notas":[7.9,9.8,9.8]}
+        ],
+        "materiasEletivas":[
+            "Ed. Física",
+            "Música"
+            
+        ],
+        "telefones":[
+            "27614324",
+            "27582448"
+        ],
+        "voluntario":true
+        },
+        {
+            "matricula":3,
+            "nome":"Lilian Viana",
+            "sexo":"F",    
+            "email":"lilian@teste.com",    
+            "serie":8,
+            "materiasRegulares":[
+                {"nome":"Matemática","notas":[8.7,6.9,5.8]},
+                {"nome":"Português","notas":[9.8,7.6,8.8]},
+                {"nome":"Geografia","notas":[9.5,4.7,7.1]}
+            ],
+            "materiasEletivas":[
+                "Ed. Física",
+                "Desenho"
+                
+            ],
+            "telefones":[
+                "26614324",
+                "3797643"
+            ],
+            "voluntario":false
+        },
+        {
+            "matricula":4,
+            "nome":"Antônio Salinas",
+            "sexo":"M",    
+            "email":"antonio@teste.com",    
+            "serie":7,
+            "materiasRegulares":[
+                {"nome":"Matemática","notas":[8.9,4.5,7.8]},
+                {"nome":"Português","notas":[4.9,9.7,7.4]},
+                {"nome":"Geografia","notas":[9.3,6.1,9.6]}
+            ],
+            "materiasEletivas":[
+                "Dança"
+            ],
+            "telefones":[
+                "36625209",
+                "27514324"
+            ],
+            "voluntario":false
+        },
+        {
+            "matricula":5,
+            "nome":"Antonio Jesus",
+            "sexo":"M",    
+            "email":"jesus@teste.com",    
+            "serie":7,
+            "materiasRegulares":[
+                {"nome":"Matemática","notas":[9.7,8.7,9.8]},
+                {"nome":"Português","notas":[9.6,9.6,9.1]},
+                {"nome":"Geografia","notas":[8.9,7.8,8.5]}
+            ],
+            "materiasEletivas":[
+                "Dança",
+                "Ed. Física"
+            ],
+            "telefones":[
+                "2593096",
+                "37715409"
+            ],
+            "voluntario":true
+        }
+]
