@@ -1,26 +1,26 @@
 insert into escola.aluno
-(nm_nome, tx_email, serie)
-values('joão nunes', 'joão@teste.com', 8);
+(nm_nome, tx_sexo,tx_email, serie)
+values('joão nunes', 'M','joão@teste.com', 8);
 
 insert into escola.materia
-(nm_nome)
-values('Matemática');
+(nm_nome,eletiva)
+values('Matemática',0);
 
 insert into escola.materia
-(nm_nome)
-values('Portugûes');
+(nm_nome,eletiva)
+values('Portugûes',0);
 
 insert into escola.materia
-(nm_nome)
-values('Geografia');
+(nm_nome,eletiva)
+values('Geografia',0);
 
 insert into escola.materia
-(nm_nome)
-values('Desenho');
+(nm_nome,eletiva)
+values('Desenho',1);
 
 insert into escola.materia
-(nm_nome)
-values('Música');
+(nm_nome,eletiva)
+values('Música',1);
 
 INSERT INTO escola.materia_aluno
 (id_aluno, id_materia)
@@ -33,6 +33,14 @@ VALUES(1, 2);
 INSERT INTO escola.materia_aluno
 (id_aluno, id_materia)
 VALUES(1, 3);
+
+INSERT INTO escola.materia_aluno
+(id_aluno, id_materia)
+VALUES(1, 4);
+
+INSERT INTO escola.materia_aluno
+(id_aluno, id_materia)
+VALUES(1, 5);
 
 INSERT INTO escola.nota
 (nr_nota, id_materia_aluno)
@@ -69,5 +77,13 @@ VALUES(5.7, 3);
 INSERT INTO escola.nota
 (nr_nota, id_materia_aluno)
 VALUES(6.7, 3);
+
+INSERT INTO escola.telefone
+(tx_telefone, id_aluno)
+VALUES('974406003', 1);
+
+INSERT INTO escola.telefone
+(tx_telefone, id_aluno)
+VALUES('27582448', 1);
 
 

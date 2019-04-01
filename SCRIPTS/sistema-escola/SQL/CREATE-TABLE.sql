@@ -2,12 +2,14 @@
 create table aluno (
 	id_aluno int primary key auto_increment,
     nm_nome varchar(80) not null,
+    tx_sexo char(1) not null,
     tx_email varchar(50) not null,
     serie int not null
 );
 
 create table materia (
 	id_materia int primary key auto_increment,
+	eletiva binary not null,
     nm_nome varchar(80) not null
 );
 
