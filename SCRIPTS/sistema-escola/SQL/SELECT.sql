@@ -1,6 +1,6 @@
 select a.id_aluno 	as Matrícula
-	  , a.nm_aluno 	as nome
-	  , a.tx_sexo 	as sexo
+	  , a.nm_aluno 	as Nome
+	  , a.tx_sexo 	as Sexo
 	  , a.tx_email  as Email
 	  , a.nr_serie  as Série
 	  , (
