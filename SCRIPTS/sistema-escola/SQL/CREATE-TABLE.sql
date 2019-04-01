@@ -25,7 +25,7 @@ add foreign key (id_materia) references materia(id_materia);
 
 create table nota (
 	id_nota int primary key auto_increment,
-    nr_nota int not null,
+    nr_nota decimal(15,2) not null,
     id_materia_aluno int not null    
 );
 
