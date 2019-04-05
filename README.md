@@ -14,3 +14,11 @@
 | - | - |
 | $set | Utilizado para modificar ou acrescentar um rótulo/campo (chave:valor) |
 | $unset | Utilizado para remover um rótulo/campo | 
+
+## Dicas de fórmula mockroo
+
+Podemos usar funções nativas para realizar determinada tarefa, como a "lower({string}) que deixa tudo minúsculo".
+
+Podemos referenciar um campo para dar carga em outro usando a sintaxe "#{referencia}".
+
+Podemos não utlizar um campo, e usar apenas o conteúdo dele, usando "{__campo}" e dar carga em outro campo referenciando esse mesmo campo.
