@@ -15,6 +15,13 @@
 | $set | Utilizado para modificar ou acrescentar um rótulo/campo (chave:valor) |
 | $unset | Utilizado para remover um rótulo/campo | 
 
+## Importando arquivos MongoDB JSON
+
+É só executar o comando com registro simples: mongoimport --stopOnError --db exemplo --collection clientes < "${pathDir}"
+
+É só executar o comando com registro complexo(com vetores): mongoimport --stopOnError --db exemplo --collection clientes < "${pathDir}" --jsonArray
+
+
 ## Dicas de fórmula mockroo
 
 Podemos usar funções nativas para realizar determinada tarefa, como a "lower({string}) que deixa tudo minúsculo".
