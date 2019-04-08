@@ -21,6 +21,13 @@
 
 É só executar o comando com registro complexo(com vetores): mongoimport --stopOnError --db exemplo --collection clientes < "${pathDir}" --jsonArray
 
+## IDE'S de Interface Gráfica no Mongo
+
+| Nome | Vantagens ? 
+| - | - |
+| RoboMongo | Muito parecida com os IDE'S de banco sql como o dbeaver e SQL Server, também permite |
+| $unset | Utilizado para remover um rótulo/campo | 
+
 
 ## Dicas de fórmula mockroo
 
@@ -29,3 +36,7 @@ Podemos usar funções nativas para realizar determinada tarefa, como a "lower({
 Podemos referenciar um campo para dar carga em outro usando a sintaxe "#{referencia}".
 
 Podemos não utlizar um campo, e usar apenas o conteúdo dele, usando "{__campo}" e dar carga em outro campo referenciando esse mesmo campo.
+
+## Neo4j
+
+No Neo4j, usamos a linguagem Cypher, assim como em banco de dados relacionais, usamos SQL
